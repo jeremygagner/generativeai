@@ -40,7 +40,7 @@ const CreatePost = () => {
           body: JSON.stringify(form),
         });
         await response.json();
-        navigate("/");
+        navigate("/generous_ai_generator/");
       } catch (error) {
         alert(error);
       } finally {
